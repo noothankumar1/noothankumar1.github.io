@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width"/>
+        <style>
+           @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+            *{
+                margin: 0;
+                padding: 0;
+
+            }
+            .header{
+                z-index: 1;
+                position: fixed;
+                width: 100%;
+                overflow: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #3f34df;
+                height: 40px;
+                
+            }
+            .header h2{
+                color: #fff;
+                font-family: 'Aclonica', sans-serif;
+               
+            }
+            .space{
+                height: 40px;
+            }
+            .container{
+                max-width: 500px;
+                margin: auto;
+            }
+            .post_box{
+                
+
+                position: relative;
+                background-color: #f0f8f3;
+                padding: 10px;    
+                margin: 10px 10px 0 10px;
+                border: .5px #333 solid;
+                border-radius: 3px;
+                font-family: "Open Sans" , sans-serif;
+            }
+            .job_name{
+                margin:0 0 5px 0;
+            }
+            .job_name{
+                font-weight: 600;
+            }
+            .job_area{
+                font-size:14px;
+                color: #000;
+                font-style: italic;
+            }
+            .job_description{
+                margin-top: 20px;
+            }
+
+
+            .requirements{
+                margin-top: 10px;
+            }
+            .requirements_items{
+                padding: 10px;
+                margin-left: 30px;
+                font-weight: 100;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #333;
+            }
+            .last_date{
+                margin-top: 20px;
+                font-size:13px;
+            }
+            .apply_btn{
+                all: unset;
+                padding: 3px 30px 6px 30px;
+                margin: 20px 0px 10px 0px ;
+                background-color:#3f34df ;
+                color: #fff;
+                font-weight: 600;
+                border-radius: 8px;
+            }
+            .posted_date{
+                position: absolute;
+                right: 20px;
+                bottom: 25px;
+                
+            }
+            @media screen and (max-width: 400px){
+                .apply_btn{
+                    background-color: #ff0000;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Portal</h2>
+        </div>
+        <div class="space">
+            &nbsp;
+        </div>
+        <div class="container"></div>
+            <!--Paste below this-->
+
+
+
+
+
+            <!--Possssssssssssssssssssssttttt-->
+            <div class="post_box">
+                <h2 class="job_name">
+                    Graphic designer
+                </h2>
+                <p class="job_area">
+                   Bangalore, Karnataka
+                </p>
+                <p class="job_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi accusamus dolorem distinctio fugit, ut veniam? Magnam, exercitationem veritatis nihil ratione earum tempore dolorem consectetur tempora id quisquam, dolore natus?
+                </p>
+                <h5 class="requirements">Requirements :</h5>
+                <ul class="requirements_items">
+                    <li>Html</li>
+                    <li>css</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Network</li>
+                </ul>
+                <p class="last_date"><b>Last Date : </b>20/12/2020</p>
+                <a href="" style="all: unset;" ><button class="apply_btn">Apply</button></a>
+                <p class="posted_date">postedDate</p>
+            </div>
+
+
+
+
+
+
+        </div>
+    </body>
+    
+</html>
