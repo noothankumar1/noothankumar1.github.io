@@ -46,16 +46,14 @@
                 border-radius: 3px;
                 font-family: "Open Sans" , sans-serif;
             }
-            .job_name{
-                margin:0 0 5px 0;
-            }
-            .job_name{
+            .comp_name{
+                margin:0 0 0px 0;
                 font-weight: 600;
             }
-            .job_area{
-                font-size:14px;
-                color: #000;
-                font-style: italic;
+            .job_name{
+                font-size: 16px;
+                margin:0 0 0px 0;
+                font-weight: 600;
             }
             .job_description{
                 margin-top: 20px;
@@ -72,25 +70,38 @@
                 font-family: Arial, Helvetica, sans-serif;
                 color: #333;
             }
-            .last_date{
+            .start_date{
+                color: #089208;
                 margin-top: 20px;
                 font-size:13px;
             }
+            .last_date{
+                color: #ac1818;
+                margin-top: 0px;
+                font-size:13px;
+                
+            }
             .apply_btn{
                 all: unset;
-                padding: 3px 30px 6px 30px;
-                margin: 20px 0px 10px 0px ;
+                padding: 3px 20px 6px 20px;
+                margin: 8px 0px 0px 0px ;
                 background-color:#3f34df ;
                 color: #fff;
                 font-weight: 600;
+                border-radius: 4px;
+            }
+            .website_btn{
+                all: unset;
+                width: 100%;
+                text-align: center;
+                padding: 5px 0px;
+                margin: 10px 0px 0px 0px ;
+                background-color:#46ff65 ;
+                color: #333;
+                font-weight: 600;
                 border-radius: 8px;
             }
-            .posted_date{
-                position: absolute;
-                right: 20px;
-                bottom: 25px;
-                
-            }
+        
             @media screen and (max-width: 400px){
                 .apply_btn{
                     background-color: #ff0000;
@@ -114,14 +125,16 @@
 
             <!--Possssssssssssssssssssssttttt-->
             <div class="post_box">
-                <h2 class="job_name">
-                    Graphic designer
+                <h2 class="comp_name">
+                    UPSC
                 </h2>
-                <p class="job_area">
-                   Bangalore, Karnataka
-                </p>
+                <h2 class="job_name">
+                    Assistant Engineer
+                </h2>
+            
                 <p class="job_description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima modi accusamus dolorem distinctio fugit, ut veniam? Magnam, exercitationem veritatis nihil ratione earum tempore dolorem consectetur tempora id quisquam, dolore natus?
+                    
+                    lere
                 </p>
                 <h5 class="requirements">Requirements :</h5>
                 <ul class="requirements_items">
@@ -131,9 +144,11 @@
                     <li>Python</li>
                     <li>Network</li>
                 </ul>
+                <p class="start_date"><b>Start Date : </b>20/12/2020</p>
                 <p class="last_date"><b>Last Date : </b>20/12/2020</p>
-                <a href="" style="all: unset;" ><button class="apply_btn">Apply</button></a>
-                <p class="posted_date">postedDate</p>
+                <a href="" target="_blank" style="all: unset;" ><button class="apply_btn">Apply  Online</button></a><br>
+                <a href="" target="_blank" style="all: unset;" ><button class="apply_btn">Notification</button></a><br>
+                <a href="" target="_blank" style="all: unset;" ><button class="website_btn">Visit website</button></a>
             </div>
 
 
